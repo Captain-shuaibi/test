@@ -3,10 +3,10 @@ name: Vue.js CI/CD Workflow
 on:
   push:
     branches:
-      - main  # 当推送到 main 分支时触发
+      - master  # 当推送到 main 分支时触发
   pull_request:
     branches:
-      - main  # 当有 Pull Request 到 main 分支时触发
+      - master  # 当有 Pull Request 到 main 分支时触发
 
 jobs:
   build:
